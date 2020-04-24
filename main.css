@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background: #1098ad;
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+  left: -50px ;
+
+}
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid #000;
+}
+
+.piton:hover {filter: grayscale(80%);}
+
+.imagen:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
+
+button  {
+  width: 100px;
+  height: 100px;
+  background:#1098ad;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 30px;
+  color: #f8f9fa;
+  font-size: 45px;
+  transition: .3s ease all;
+
+}
+.txtescolaridad {
+  size: 10 ;
+border-bottom: 10px solid rgba(70, 130, 180, .7);
+}
+
+.primarios {
+  background: #96f2d7;
+    width: 300px;
+  height:150px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  padding: 20px ;
+    text-align: center;
+    border-bottom: 7px solid rgba(100, 100, 100, .3);
+
+}
+
+.cero{
+
+  font-size: 24px;
+  color: #1098ad
+
+}
+
+.uno{
+font-size:22px;
+color: #868e96
+}
+
+.dos {
+  font-size:22px;
+  color: #868e96
+}
+.tres {
+  font-size:28px;
+  color: #868e96
+}
+
+.Secundarios {
+  background: #96f2d7;
+    width: 300px;
+  height:150px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  padding: 20px ;
+    text-align: center;
+    border-bottom: 7px solid rgba(100, 100, 100, .3);
+
+}
+
+.Esecundarios{
+
+  font-size: 24px;
+  color: #1098ad
+
+}
+
+.cuatro{
+font-size:22px;
+color: #868e96
+}
+
+.cinco {
+  font-size:22px;
+  color: #868e96
+}
+.seis {
+  font-size:28px;
+  color: #868e96
+}
+
+
+.superiores {
+  background: #96f2d7;
+    width: 300px;
+  height:150px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  padding: 20px ;
+    text-align: center;
+    border-bottom: 7px solid rgba(100, 100, 100, .3);
+
+}
+
+.Esuperiores{
+
+  font-size: 24px;
+  color: #1098ad
+
+}
+
+.siete{
+font-size:22px;
+color: #868e96
+}
+
+.ocho {
+  font-size:22px;
+  color: #868e96
+}
+.nueve {
+  font-size:28px;
+  color: #868e96
+}
+
+.cajaprimarios {
+  position: absolute;
+left: 225px
+}
+
+
+.cajasecundarios {
+  position: absolute;
+  left: 575px
+}
+
+.cajasuperiores {
+  position: absolute;
+  left: 925px
+}
+
+.face{
+
+  font-size:80px
+}
+
+.google{
+    font-size:80px
+
+}
+
+.instagram{
+  font-size:80px
+}
+
+.google:hover {filter: opacity(.3);}
+.face:hover {filter: opacity(.3);}
+.instagram:hover {filter: opacity(.3);}
+
+.cajaprimarios:hover .primarios {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.cajaprimarios {overflow:hidden;}
+
+.cajasuperiores:hover .superiores {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.cajasuperiores {overflow:hidden;}
+
+.cajasuperiores:hover .superiores {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.cajasuperiores {overflow:hidden;}
+
+.animated  {
+    border-bottom: 8px solid rgba(	30, 144, 255, .3);
+}
+
+
+.foto:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
